@@ -48,6 +48,6 @@ def display_results(devices):
 
 if __name__ == "__main__":
     # ملاحظة: استبدل النطاق بما يتوافق مع شبكتك للتجربة (مثلاً 192.168.1.1/24)
-    target_range = "192.168.1.1/24" 
+    target_range = "192.168.0.1/24" 
     results = scan_network(target_range)
     display_results(results)
