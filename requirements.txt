@@ -1,0 +1,5 @@
+echo "venv/
+__pycache__/
+*.pt
+*.mp4
+.env" > .gitignore
